@@ -1,0 +1,17 @@
+# At first create a VM for PXE Server and install pxe on your virtual machine
+
+# Then install and configuration pxe server on it
+
+# Then copy this directory contents to the /var/ftp/pub path on the PXE server
+
+# Download Centos 7 and accomodate packages to Packages directory.
+
+# copy your OS squashfs file to pub/LiveOS/squashfs.img
+
+# cp OS_FILES_PATH/vmlinuz   pub/images/pxeboot/vmlinuz 
+# cp OS_FILES_PATH/initrd.img  pub/images/pxeboot/initrd.img 
+# cp OS_FILES_PATH/isolinux/*  pub/isolinux/*
+
+
+# Finally restart your PXE services and create client machine for installation test.
+
