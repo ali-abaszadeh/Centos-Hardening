@@ -1,6 +1,6 @@
 # Centos Hardening
 
-This script has been developed to install and configure Centos automatically on bare metal servers in production environments. This project involved PXE, DHCP, TFTP, Hardening,\
+This script has been developed to install and configure Centos automatically on bare metal servers in production environments. This project involved PXE, DHCP, TFTP, Hardening,
 and Kickstart. First of all, the pxe server will be run on the production environments. After that you can configure your bare metal server setting for boot from the network mode(pxe).
 At this moment your server will be connected to the pxe server and can get an IP from dhcp server. Your server now is ready to install on the network. At this process we have some of
 bash scripts for automate os hardening based on OPEN SCAP checklist. Also we have a kickstart file for managing our installation process and how we should install and configure our OS.
@@ -32,14 +32,12 @@ cp OS_FILES_PATH/isolinux/*  pub/isolinux/*
 7. Create client machine for automatic installation test.
 
 
-
 ## Usage
 
 Install, configure and hardening centos automatically on the bare metal servers or virtual machines simultaneously.
 
 
 ## License
-
 
 
 ## Contact
