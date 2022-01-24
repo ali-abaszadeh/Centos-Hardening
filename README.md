@@ -33,12 +33,14 @@ cp OS_FILES_PATH/isolinux/*  pub/isolinux/*
 7. Create client machine for automatic installation test.
 
 
+
 ## Usage
 
 Install, configure and hardening centos automatically on the bare metal servers or virtual machines simultaneously.
 
 
 ## License
+
 
 
 ## Contact
