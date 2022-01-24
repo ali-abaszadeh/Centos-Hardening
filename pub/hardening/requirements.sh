@@ -34,7 +34,7 @@ sed -i 's/ClientAliveCountMax*/ClientAliveCountMax 5/' /etc/ssh/sshd_config
 
 figlet DNS PROJECT > /etc/issue.net
 echo "##############################################################################################################################
-#                                                      Welcome to DNS Project                                                      
+#                                                      Welcome to Test Project                                                      
 #                                   All connections are monitored and recorded                                         
 #                          Disconnect IMMEDIATELY if you are not an authorized user!                    
 ##############################################################################################################################
